@@ -3,4 +3,6 @@ function getComputerChoice() {
     return rand === 0 ? "rock" : rand === 1 ? "paper" : "scissors";
 }
 
-console.log(getComputerChoice())
+function getHumanChoice() {
+    return prompt("Input choice of either rock, paper, or scissors:");
+}
